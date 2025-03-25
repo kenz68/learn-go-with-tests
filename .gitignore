@@ -4,3 +4,5 @@ coverage/*
 __pycache__/
 *.py[cod]
 *$py.class
+
+py-algorithm/__pycache__/*.pyc

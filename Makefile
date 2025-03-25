@@ -36,7 +36,8 @@ clean:  ## go clean
 clean-all:  ## remove all generated artifacts and clean all build artifacts
 	go clean -i ./...
 	rm -fr rpc
-
+cleanpy:
+	bash pyclean.sh
 fmt:    ## format the go source files
 	go fmt ./...
 	goimports -w $(FILES)
